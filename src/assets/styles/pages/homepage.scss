@@ -18,14 +18,19 @@
 		.hero-paragraph {
 			margin: 0;
 			position: relative;
-			padding-top: 80px;
+			padding-top: 130px;
 			.little-rect {
-				top: 0;
+				top: 50px;
 				left: 0;
 				position: absolute;
 				height: 4px;
 				width: 50px;
 				background-color: $rb;
+			}
+			div {
+				// margin-left: 50px;
+				font-size: 18px;
+				line-height: 38px;
 			}
 			grid-column: 3/4;
 
@@ -235,6 +240,9 @@
 			font-size: 15px;
 			line-height: 25px;
 			color: #ffffffc5;
+		}
+		.coffe {
+			text-align: end;
 		}
 	}
 }
