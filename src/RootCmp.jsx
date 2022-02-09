@@ -11,9 +11,10 @@ export function RootCmp() {
 			<BrowserRouter>
 				<AppHeader />
 				<main>
-					<Routes>
+					<HomePage />
+					{/* <Routes>
 						<Route path='/' element={<HomePage />} />
-					</Routes>
+					</Routes> */}
 				</main>
 			</BrowserRouter>
 		</section>
