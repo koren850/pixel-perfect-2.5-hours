@@ -1,0 +1,240 @@
+.home-page {
+	position: relative;
+	.hero {
+		height: 60vh;
+		display: grid;
+		grid-template-columns: 1fr 40px 1fr;
+		margin-top: 100px;
+		.hero-header {
+			font-size: 100px;
+			line-height: 100px;
+			font-family: livvic-bold;
+			padding-top: 80px;
+			span {
+				color: $lc;
+			}
+		}
+
+		.hero-paragraph {
+			margin: 0;
+			position: relative;
+			padding-top: 80px;
+			.little-rect {
+				top: 0;
+				left: 0;
+				position: absolute;
+				height: 4px;
+				width: 50px;
+				background-color: $rb;
+			}
+			grid-column: 3/4;
+
+			.bg-img2 {
+				position: absolute;
+				right: 0;
+				bottom: 0;
+			}
+		}
+	}
+	.bg-img1 {
+		position: absolute;
+		left: -265px;
+		top: 180px;
+	}
+
+	.info {
+		position: relative;
+		height: 80vh;
+		grid-column: 1/4;
+		padding: 0 165px;
+		background-color: $ssg;
+		display: grid;
+		grid-template-columns: 1fr 150px 1fr;
+		justify-content: center;
+		padding-top: 140px;
+
+		.bg-img {
+			position: absolute;
+			bottom: 0;
+			right: -100px;
+		}
+		.info-header {
+			position: relative;
+			font-family: livvic-bold;
+			font-size: 64px;
+			line-height: 56px;
+			padding-top: 60px;
+			.little-rect {
+				top: 0;
+				left: 0;
+				position: absolute;
+				height: 4px;
+				width: 50px;
+				background-color: $lc;
+			}
+		}
+
+		.cards {
+			padding-top: 60px;
+			grid-column: 3/4;
+			display: flex;
+			flex-direction: column;
+			gap: 40px;
+			.card {
+				gap: 20px;
+				align-items: center;
+				img {
+					height: 65px;
+				}
+				.card-header {
+					font-family: livvic-bold;
+					color: $lc;
+					font-size: 1.2rem;
+				}
+				.card-content {
+					margin-top: 20px;
+					line-height: 30px;
+				}
+			}
+		}
+	}
+
+	.info2 {
+		position: relative;
+		display: flex;
+		flex-direction: column;
+		height: 80vh;
+		align-items: center;
+		justify-content: center;
+		.header {
+			font-family: livvic-bold;
+			font-size: 64px;
+			line-height: 56px;
+			text-align: center;
+			span {
+				cursor: pointer;
+				color: $rb;
+				transition: all 0.2s;
+				&:hover {
+					color: $lc;
+				}
+			}
+		}
+
+		.bg-img1 {
+			position: absolute;
+			top: 0;
+			left: -265px;
+		}
+		.bg-img2 {
+			position: absolute;
+			bottom: 0;
+			right: -165px;
+		}
+		.cards {
+			display: grid;
+
+			grid-template-columns: 1fr 1fr 1fr;
+			grid-column-gap: 50px;
+
+			.card {
+				margin-top: 100px;
+				position: relative;
+				text-align: center;
+				.name {
+					color: $rb;
+					margin-bottom: 15px;
+					margin-top: 40px;
+				}
+				.member {
+					height: 65px;
+					border: 2px solid $white;
+					border-radius: 50%;
+					margin-top: 35px;
+				}
+				.bg-img {
+					position: absolute;
+					z-index: -1;
+					left: 50%;
+					transform: translate(-60%, -60%);
+				}
+			}
+		}
+	}
+
+	.contact {
+		position: relative;
+		grid-column: 1/4;
+		height: 30vh;
+		background-color: $lc;
+		align-items: center;
+		justify-content: space-between;
+
+		img {
+			position: absolute;
+			bottom: 0;
+		}
+
+		div {
+			margin-left: 165px;
+			font-size: 48px;
+			line-height: 48px;
+			color: $ssg;
+		}
+
+		button {
+			margin-right: 165px;
+			color: $ssg;
+			height: 50px;
+			width: 150px;
+			border: 2px solid $ssg;
+			background-color: transparent;
+			border-radius: 40px;
+			font-size: 1rem;
+			transition: all 0.2s;
+			&:hover {
+				color: $white;
+				background-color: $dg;
+			}
+		}
+	}
+
+	.footer {
+		grid-column: 1/4;
+		padding: 0 165px;
+		background-color: $dg;
+		height: 30vh;
+		display: grid;
+		align-items: center;
+		grid-template-columns: 1fr 1.5fr 1fr;
+
+		.about {
+			display: flex;
+			flex-direction: column;
+			.name {
+				font-size: 2rem;
+			}
+			.navs {
+				margin-top: 40px;
+				display: flex;
+				gap: 50px;
+
+				div {
+					cursor: pointer;
+					transition: all 0.2s;
+				}
+
+				div:hover {
+					color: $lc;
+				}
+			}
+		}
+
+		.loc {
+			max-width: 165px;
+			font-size: 15px;
+			line-height: 25px;
+			color: #ffffffc5;
+		}
+	}
+}

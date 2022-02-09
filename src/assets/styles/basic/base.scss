@@ -1,0 +1,22 @@
+* {
+	box-sizing: border-box;
+	font-family: livvic-semi;
+}
+
+body {
+	margin: 0 auto;
+	background-color: $mg;
+	color: $white;
+}
+
+h1 {
+	margin: 0;
+}
+
+.main-layout {
+	display: grid;
+	grid-template-columns: 165px 1fr 165px;
+	& > * {
+		grid-column: 2/3;
+	}
+}
