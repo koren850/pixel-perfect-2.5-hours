@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pixel-perfect-2.5-hours/static/css/main.c994c243.css",
-    "main.js": "/pixel-perfect-2.5-hours/static/js/main.c629c1e3.js",
+    "main.js": "/pixel-perfect-2.5-hours/static/js/main.7afe2c65.js",
     "static/js/787.28cb0dcd.chunk.js": "/pixel-perfect-2.5-hours/static/js/787.28cb0dcd.chunk.js",
     "static/media/Livvic-Bold.ttf": "/pixel-perfect-2.5-hours/static/media/Livvic-Bold.089af19ac41ce144a96c.ttf",
     "static/media/Livvic-SemiBold.ttf": "/pixel-perfect-2.5-hours/static/media/Livvic-SemiBold.c79c53d29c413ab69adb.ttf",
@@ -20,11 +20,11 @@
     "static/media/bg-pattern-home-5.svg": "/pixel-perfect-2.5-hours/static/media/bg-pattern-home-5.95a2a6211526850cef5564daa5a17630.svg",
     "static/media/bg-pattern-home-4-about-3.svg": "/pixel-perfect-2.5-hours/static/media/bg-pattern-home-4-about-3.aacd4e03b04df33749baa362f4612832.svg",
     "main.c994c243.css.map": "/pixel-perfect-2.5-hours/static/css/main.c994c243.css.map",
-    "main.c629c1e3.js.map": "/pixel-perfect-2.5-hours/static/js/main.c629c1e3.js.map",
+    "main.7afe2c65.js.map": "/pixel-perfect-2.5-hours/static/js/main.7afe2c65.js.map",
     "787.28cb0dcd.chunk.js.map": "/pixel-perfect-2.5-hours/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c994c243.css",
-    "static/js/main.c629c1e3.js"
+    "static/js/main.7afe2c65.js"
   ]
 }
